@@ -1,0 +1,45 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    background: #ddd;
+    background-image: -webkit-linear-gradient(bottom, #aaa 2%, #ddd 65%);
+    background-image: -moz-linear-gradient(bottom, #aaa 2%, #ddd 65%);
+    background-image: -o-linear-gradient(bottom, #aaa 2%, #ddd 65%);
+    background-image: -ms-linear-gradient(bottom, #aaa 2%, #ddd 65%);
+    background-image: linear-gradient(bottom, #aaa 2%, #ddd 65%);
+}
+
+.container {
+    margin: 2% auto;
+    width: 75%;
+}
+    .container h1 {
+        color: rgb(234, 98, 88);
+        font-size: 4em;
+        font-weight: normal;
+        letter-spacing: -2px;
+        text-align: center;
+    }
+        .container h1 b {
+            font-weight: bold;
+        }
+    .container img {
+        display: block;
+        height: 203px;
+        margin: 2em auto;
+        width: 463px;
+    }
+    .container a {
+        color: rgb(234, 98, 88);
+    }
+    .container p {
+        margin: 0 auto 2em;
+        width: 50%;
+    }
+        .container p small {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
